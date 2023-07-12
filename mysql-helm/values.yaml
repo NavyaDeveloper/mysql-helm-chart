@@ -19,7 +19,6 @@ service:
   port: 3306
 
 secrets:
-  enabled: false
-  username: ""
-  password: ""
+  mysqlUser: myuser
+  mysqlPassword: mypassword
 
